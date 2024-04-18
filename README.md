@@ -1,3 +1,12 @@
+🐸
+># Convenciones en Aplicaciones FrontEnd
+>Para revisar las convenciones en aplicaciones front-end de la compañía [link](https://confuturoti.atlassian.net/wiki/spaces/ODA/pages/2023194791/Convenciones+en+Aplicaciones+Frontend).
+>
+>Esta es una estructura inicial que presenta la estructura ideal del proyecto
+>>
+
+# 
+
 # TemplateFront
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
@@ -25,3 +34,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
