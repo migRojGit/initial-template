@@ -1,2 +1,11 @@
+//Abstracts
+@import './abstratcs/mixins';
+//Base Reset
+@import './base/colors';
+@import './base/base';
+@import './base/reset';
+@import './base/typography';
+//Components
 @import './components/first';
 @import './components/second';
+@import './components/home';

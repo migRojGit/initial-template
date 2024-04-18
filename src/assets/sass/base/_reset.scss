@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @include clearfix();
+}
+
+a {
+    color: $black-background;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.title-3 {
+    margin-top: 1.25rem;
+}
+
+.title-12 {
+    font-size: 1.25rem;
+    margin-top: 0.3rem;
+}
+
+.h4 {
+    margin-top: 0.5rem;
+}
+
+.h5 {
+    font-size: 1rem;
+    margin: 0.7rem;
+}
+
+.alert-warning {
+    background-color: $yellow;
+    border-color: $yellow-secondary;
+    color: $yellow-dark;
+}
+.pointer{
+    cursor:  pointer !important;
+}
+.pointer-alt{
+    color: white;
+    cursor: pointer;
+}
+.pointer-alt:hover{
+    color: brown;
+}
+
+.not-pointer{
+    cursor: auto;
+    content: '';
+}
+.text-decoration-none{
+    text-decoration: none !important;
+}
+
+.list-style-type-none{
+    list-style-type: none !important;
+}
+.button-md{
+    padding: 7px 25px !important;
+    font-size: 1.1em !important;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}

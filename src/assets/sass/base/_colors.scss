@@ -1,0 +1,30 @@
+// COLORES BASICOS
+$white: #ffffff;
+$white-secondary: #ddd;
+$white-home: #eee;
+$black: #000000;
+$black-blurred: #222222;
+$black-background: #333;
+$gray-borders: #535353;
+$black-secondary: rgba(0, 0, 0, 0.5);
+// COLORES EMPRESARIALES
+$red: #ff0000;
+$orange-strong: #e8473e;
+$orange: #ee7423;
+$gray: #777777;
+//alerts
+$yellow: #fcf8e3;
+$yellow-secondary: #faebcc;
+$yellow-dark: #8a6d3b;
+$gradiant-orange: linear-gradient(90deg, rgba(232, 71, 62, 1) 50%, rgba(238, 116, 35, 1) 100%);
+$color-confuturo: #E8473E;
+
+.bg-white{
+    background-color: $white;
+}
+.gradiant-orange-bg-confuturo{
+    background: $gradiant-orange !important;
+}
+.gray-text{
+    color:$gray-borders;
+}
